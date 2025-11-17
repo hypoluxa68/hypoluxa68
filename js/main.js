@@ -42,7 +42,7 @@ function getAppInfo() {
 		const developer = app_data.developer;
 		makeFooter(developer, version, start_year);
 	};
-	xmlhttp.open('GET', '/docs/app.json', true);
+	xmlhttp.open('GET', 'https://hypoluxa68.github.io/hypoluxa68/docs/app.json', true);
 	xmlhttp.send();
 }
 
