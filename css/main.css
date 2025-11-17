@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 600;
+}
+
+:root {
+  --bs-body-font-family: "Roboto Condensed", sans-serif;
+  --bs-body-color: var(--bs-black);
+  --bs-body-color-rgb: 0, 0, 0;
+  --bs-body-bg: var(--bs-white);
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-heading-color: var(--bs-black);
+  --bs-focus-ring-width: 0;
+  --bs-link-color: var(--bs-gray-400);
+  --bs-link-color-rgb: 206, 212, 218;
+  --bs-link-decoration: none;
+  --bs-link-hover-color: var(--bs-gray-600);
+  --bs-link-hover-color-rgb: 108, 117, 125;
+}
+
+a,
+.btn-link {
+  text-decoration: none;
+}
+
+main {
+  min-height: 85vh;
+}
+
+footer .nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-font-weight: 600;
+}
+
+/*# sourceMappingURL=main.css.map */
